@@ -101,6 +101,7 @@ body{
   cursor: pointer;
   font-size: 1em;
   font-weight: 500;
+  
 }
 
 #recipe{
@@ -134,6 +135,7 @@ body{
   outline: none;
   font-weight: 600;
   border: none;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -148,6 +150,14 @@ ul{
 @media (max-width: 500px){
     .container{
       font-size: 14px;
+    }
+    .search-container input{
+      width: 60%;
+      font-size: 1.2em;
+      padding: 0.6em;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid #e4e4e4;
     }
 }
 
