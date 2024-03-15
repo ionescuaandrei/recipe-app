@@ -26,6 +26,7 @@ body{
 }
 
 .container{
+  position: relative;
   background-color: #fff;
   padding: 3em 2.8em;
   font-size: 1em;
@@ -116,11 +117,11 @@ a.yt-link{
 }
 
 #view-recipe{
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 15px;
+  width: 100%;
 }
 
 #show-recipe{
