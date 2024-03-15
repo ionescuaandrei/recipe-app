@@ -9,6 +9,20 @@
 body{
   background-color: #FCA311;
   font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.heading{
+  text-align: center;
+}
+
+.year{
+  font-weight: 100;
+  font-style: italic;
 }
 
 .container{
@@ -17,10 +31,6 @@ body{
   font-size: 1em;
   width: 90vw;
   max-width: 32em;
-  position: absolute;
-  transform: translateX(-50%);
-  left: 50%;
-  top: 1em;
   border-radius: 0.6em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

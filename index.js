@@ -13,7 +13,7 @@ searchButton.addEventListener("click", () =>{
   let searchValue = document.querySelector("#search-input").value;
 
   if(searchValue.length == 0){
-    result.innerHTML = `<h3> Search input empty </h3>`
+    result.innerHTML = `<h3> Search input gol </h3>`
   }
   else{
     fetch(url + searchValue)
@@ -88,7 +88,7 @@ searchButton.addEventListener("click", () =>{
       recipe.style.display = "block";
     })
   }).catch(()=>{
-    result.innerHTML = `<h3>Something went wrong :(</h3>`;
+    result.innerHTML = `<h3>Nu exista inregistrari</h3>`;
   })
   }
 });
